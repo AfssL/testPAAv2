@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Plan Architect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="app-header">
+    <div class="header-inner">
+      <h1>Study Plan Architect</h1>
+      <p>Select any courses you want to take. The backend runs Kahn's Algorithm to build a valid semester schedule.</p>
+    </div>
+  </header>
+
+  <main class="app-main">
+
+    <section id="selection-section">
+      <div class="section-header">
+        <h2>Course Catalog</h2>
+        <div class="toolbar">
+          <input type="search" id="search-input" placeholder="Search by name or code…">
+          <button id="select-all-btn" class="btn btn-secondary">Select All</button>
+          <button id="clear-all-btn" class="btn btn-secondary">Clear All</button>
+        </div>
+      </div>
+      <div id="course-list">
+        <div class="loading">Loading courses…</div>
+      </div>
+    </section>
+
+    <div class="action-bar">
+      <div class="selection-summary">
+        <span id="selected-count">0 courses selected</span>
+        <span id="sks-total">0 SKS total</span>
+      </div>
+      <button id="generate-btn" class="btn btn-primary" disabled>Generate Schedule</button>
+    </div>
+
+    <div id="error-banner" class="error-banner hidden"></div>
+
+    <section id="results-section" class="hidden">
+      <div class="results-header">
+        <h2>Your Study Plan</h2>
+        <div id="results-stats"></div>
+      </div>
+      <div id="schedule-container"></div>
+    </section>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>

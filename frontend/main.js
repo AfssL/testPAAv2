@@ -1,13 +1,15 @@
-const API_BASE = 'http://localhost:5000';
+//const API_BASE = 'http://localhost:5000';
 //const API_SOLVE = '/api/solve'; 
 //const API_CURRICULUM = '/api/curriculum';
+const API_URL = '/api/solve';
+const response = await fetch('/api/curriculum');
 
 let curriculum = {};
 let selected = new Set();
 
 // ─── Init ────────────────────────────────────────────────────────────────────
 
-async function init() {
+/*async function init() {
   try {
     const res = await fetch(`${API_BASE}/api/curriculum`);
     if (!res.ok) throw new Error();
@@ -17,7 +19,7 @@ async function init() {
   } catch {
     showError('Failed to load curriculum. Make sure the backend is running on <code>localhost:5000</code>.');
   }
-}
+}*/
 
 // ─── Render course catalog ────────────────────────────────────────────────────
 

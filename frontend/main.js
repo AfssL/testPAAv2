@@ -9,7 +9,7 @@ let selected = new Set();
 
 // ─── Init ────────────────────────────────────────────────────────────────────
 
-/*async function init() {
+async function init() {
   try {
     const res = await fetch(`${API_BASE}/api/curriculum`);
     if (!res.ok) throw new Error();
@@ -19,7 +19,7 @@ let selected = new Set();
   } catch {
     showError('Failed to load curriculum. Make sure the backend is running on <code>localhost:5000</code>.');
   }
-}*/
+}
 
 // ─── Render course catalog ────────────────────────────────────────────────────
 

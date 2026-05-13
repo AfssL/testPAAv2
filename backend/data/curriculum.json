@@ -1,0 +1,338 @@
+{
+  "EF4101": {
+    "name": "Fundamental Programming",
+    "sks": 4,
+    "semester": 1,
+    "req": []
+  },
+  "EF4102": {
+    "name": "Digital System",
+    "sks": 3,
+    "semester": 1,
+    "req": []
+  },
+  "EF4103": {
+    "name": "Linear Algebra",
+    "sks": 3,
+    "semester": 1,
+    "req": []
+  },
+  "EF4104": {
+    "name": "Database System",
+    "sks": 4,
+    "semester": 1,
+    "req": []
+  },
+  "EF4201": {
+    "name": "Data Structure",
+    "sks": 4,
+    "semester": 2,
+    "req": ["EF4101"]
+  },
+  "EF4202": {
+    "name": "Operating System",
+    "sks": 4,
+    "semester": 2,
+    "req": ["EF4102"]
+  },
+  "EF4203": {
+    "name": "Computer Organization",
+    "sks": 3,
+    "semester": 2,
+    "req": ["EF4102"]
+  },
+  "EF4204": {
+    "name": "Numerical Computation",
+    "sks": 3,
+    "semester": 2,
+    "req": ["EF4103"]
+  },
+  "SM4201": {
+    "name": "Calculus 2",
+    "sks": 3,
+    "semester": 2,
+    "req": []
+  },
+  "EF4301": {
+    "name": "Web Programming",
+    "sks": 3,
+    "semester": 3,
+    "req": ["EF4104"]
+  },
+  "EF4302": {
+    "name": "Object Oriented Programming",
+    "sks": 3,
+    "semester": 3,
+    "req": ["EF4201"]
+  },
+  "EF4303": {
+    "name": "Computer Network",
+    "sks": 4,
+    "semester": 3,
+    "req": ["EF4202"]
+  },
+  "EF4304": {
+    "name": "Graph Theory",
+    "sks": 3,
+    "semester": 3,
+    "req": ["SM4201"]
+  },
+  "EF4305": {
+    "name": "Discrete Mathematics",
+    "sks": 3,
+    "semester": 3,
+    "req": ["SM4201"]
+  },
+  "EF4307": {
+    "name": "Software Development Principles",
+    "sks": 2,
+    "semester": 3,
+    "req": []
+  },
+  "EK4201": {
+    "name": "Artificial Intelligence Concepts",
+    "sks": 3,
+    "semester": 3,
+    "req": ["EF4201"]
+  },
+  "EF4401": {
+    "name": "Network Programming",
+    "sks": 3,
+    "semester": 4,
+    "req": ["EF4303"]
+  },
+  "EF4402": {
+    "name": "Probabilistic and Statistic",
+    "sks": 3,
+    "semester": 4,
+    "req": ["EF4305"]
+  },
+  "EF4403": {
+    "name": "Automata",
+    "sks": 2,
+    "semester": 4,
+    "req": ["SM4201"]
+  },
+  "EF4404": {
+    "name": "Database Management",
+    "sks": 3,
+    "semester": 4,
+    "req": ["EF4104"]
+  },
+  "EF4405": {
+    "name": "Algorithm Design and Analysis",
+    "sks": 3,
+    "semester": 4,
+    "req": ["EF4201"]
+  },
+  "EF4406": {
+    "name": "Machine Learning",
+    "sks": 3,
+    "semester": 4,
+    "req": ["EK4201"]
+  },
+  "ER4301": {
+    "name": "Software Design",
+    "sks": 3,
+    "semester": 4,
+    "req": ["EF4307"]
+  },
+  "EF4501": {
+    "name": "Framework-based Programming",
+    "sks": 3,
+    "semester": 5,
+    "req": ["EF4302"]
+  },
+  "EF4502": {
+    "name": "Information Security",
+    "sks": 3,
+    "semester": 5,
+    "req": ["EF4303"]
+  },
+  "EF4503": {
+    "name": "Modeling and Simulation",
+    "sks": 3,
+    "semester": 5,
+    "req": ["EF4402"]
+  },
+  "EF4504": {
+    "name": "Computer Graphics",
+    "sks": 3,
+    "semester": 5,
+    "req": ["EF4302"]
+  },
+  "EF4505": {
+    "name": "Knowledge Based System Engineering",
+    "sks": 3,
+    "semester": 5,
+    "req": ["EF4404"]
+  },
+  "EF4506": {
+    "name": "Network Technology",
+    "sks": 3,
+    "semester": 5,
+    "req": ["EF4303"]
+  },
+  "EF4507": {
+    "name": "Wireless Network",
+    "sks": 3,
+    "semester": 5,
+    "req": ["EF4303"]
+  },
+  "EF4513": {
+    "name": "Enterprise Systems",
+    "sks": 3,
+    "semester": 5,
+    "req": ["EF4404"]
+  },
+  "EF4514": {
+    "name": "IT Governance",
+    "sks": 3,
+    "semester": 5,
+    "req": ["EF4404"]
+  },
+  "EF4517": {
+    "name": "Image Processing and Computer Vision",
+    "sks": 3,
+    "semester": 5,
+    "req": ["EF4406"]
+  },
+  "EF4518": {
+    "name": "Data Mining",
+    "sks": 3,
+    "semester": 5,
+    "req": ["EF4406"]
+  },
+  "EF4601": {
+    "name": "Mobile Programming",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4302"]
+  },
+  "EF4602": {
+    "name": "Human and Computer Interaction",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4302"]
+  },
+  "EF4604": {
+    "name": "Mobile Computing",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4303"]
+  },
+  "EF4606": {
+    "name": "Network Security",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4303"]
+  },
+  "EF4607": {
+    "name": "Application Security",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4202", "EF4203"]
+  },
+  "EF4608": {
+    "name": "Interface Programming",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4301"]
+  },
+  "EF4609": {
+    "name": "Dynamic System Simulation",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4503"]
+  },
+  "EF4610": {
+    "name": "Agent-based Simulation",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4503"]
+  },
+  "EF4615": {
+    "name": "System Audit",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4404"]
+  },
+  "EF4616": {
+    "name": "Distributed Database",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4404"]
+  },
+  "EF4619": {
+    "name": "Deep Learning",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4406"]
+  },
+  "EF4625": {
+    "name": "Pervasive Computing and sensor networks",
+    "sks": 3,
+    "semester": 6,
+    "req": ["EF4303"]
+  },
+  "ER4402": {
+    "name": "Software Construction",
+    "sks": 3,
+    "semester": 6,
+    "req": ["ER4301"]
+  },
+  "ER4503": {
+    "name": "Software Quality",
+    "sks": 3,
+    "semester": 6,
+    "req": ["ER4301"]
+  },
+  "EF4705": {
+    "name": "Digital Forensic",
+    "sks": 3,
+    "semester": 7,
+    "req": ["EF4401"]
+  },
+  "EF4706": {
+    "name": "Signal Processing",
+    "sks": 3,
+    "semester": 7,
+    "req": ["EF4405"]
+  },
+  "EF4708": {
+    "name": "Multivariate Data Analysis",
+    "sks": 3,
+    "semester": 7,
+    "req": ["EF4402"]
+  },
+  "EF4709": {
+    "name": "Object Oriented Simulation",
+    "sks": 3,
+    "semester": 7,
+    "req": ["EF4503"]
+  },
+  "EF4711": {
+    "name": "X Reality",
+    "sks": 3,
+    "semester": 7,
+    "req": ["EF4504"]
+  },
+  "EF4712": {
+    "name": "Big Data",
+    "sks": 3,
+    "semester": 7,
+    "req": ["EF4404"]
+  },
+  "ER4403": {
+    "name": "Software Architecture",
+    "sks": 3,
+    "semester": 7,
+    "req": ["ER4301"]
+  },
+  "ER4505": {
+    "name": "Software Evolution",
+    "sks": 3,
+    "semester": 7,
+    "req": ["ER4301"]
+  }
+}

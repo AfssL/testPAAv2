@@ -1,6 +1,6 @@
-//const API_BASE = 'http://localhost:5000';
-const API_SOLVE = '/api/solve'; 
-const API_CURRICULUM = '/api/curriculum';
+const API_BASE = 'http://localhost:5000';
+//const API_SOLVE = '/api/solve'; 
+//const API_CURRICULUM = '/api/curriculum';
 
 let curriculum = {};
 let selected = new Set();

@@ -1,8 +1,8 @@
-//const API_BASE = 'http://localhost:5000';
+const API_BASE = 'http://localhost:5000';
 //const API_SOLVE = '/api/solve'; 
 //const API_CURRICULUM = '/api/curriculum';
-const API_URL = '/api/solve';
-const response = await fetch('/api/curriculum');
+//const API_URL = '/api/solve';
+//const response = await fetch('/api/curriculum');
 
 let curriculum = {};
 let selected = new Set();
